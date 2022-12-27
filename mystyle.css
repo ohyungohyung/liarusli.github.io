@@ -56,6 +56,13 @@ font-family: 'Assistant', sans-serif;
   font-family: 'Assistant', serif;
 }
 
+#about img {
+  width: 50%;
+ min-width:250px;
+  /* max-width:80%; */
+}
+
+
 body {
 font-size: 18px;
 color: red;
