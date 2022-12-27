@@ -11,12 +11,12 @@ h1{
   position: absolute;
   top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   font-size: 20px;
   color: red;
   font-family: 'Assistant', sans-serif;
-
+  /* background-color: green; */
 }
 
 #indexpage img {
