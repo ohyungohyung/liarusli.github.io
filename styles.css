@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Assistant", sans-serif;
+  background-color: #fffef7;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+a {
+  cursor: pointer;
+  color: red;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: lime;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: none;
+  font-size: 18px;
+  color: red;
+  margin: 2px 0;
+  font-weight: 400;
+}
+
+p {
+  color: red;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.grey-subtitle {
+  color: rgb(170, 170, 170);
+  font-style: italic;
+}
+
+.letter-space {
+  letter-spacing: .3rem;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 5px;
+}
+
+.margin-bottom-md {
+  margin-bottom: 16px;
+}
+
+.fs-regular {
+  font-size: 18px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* INDEX PAGE */
+#index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+}
+
+.centered-inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 1050px;
+}
+
+.seal {
+  width: 115px;
+}
+
+.header {
+  margin-top: 18px;
+  margin-bottom: 12px;
+}
+
+/* GENERAL PAGES */
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper h1 {
+  font-size: 18px;
+}
+
+.inner-wrapper {
+  margin-top: 50px;
+  width: 85vw;
+  max-width: 1120px;
+  margin-bottom: 50px;
+}
+
+.page-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.page-title-container h3 {
+  text-align: center;
+}
+
+.page-title-subtitle {
+  color: red;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.segment-container {
+  margin-top: 30px;
+}
+
+.segment-header {
+  margin-bottom: 8px;
+}
+
+/* FILM MUSIC PAGE */
+#film-score-reel {
+  font-weight: 700;
+}
+
+/* OHYUNG PAGE */
+#ohyung #selected-press li {
+  margin-bottom: 25px;
+}
+
+/* ABOUT PAGE */
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact {
+  color: red;
+  font-weight: 600;
+}
+
+.photo {
+  width: 50%;
+  min-width: 400px;
+  margin-top: 20px;
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 600px) {
+  .inner-wrapper {
+    width: 90vw;
+  }
+
+  .fs-regular, p, li {
+    font-size: 16px;
+  }
+
+  .wrapper h1, .wrapper h2, .wrapper h3 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .photo {
+    width: 100vw;
+  }
+}
