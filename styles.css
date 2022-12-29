@@ -71,6 +71,10 @@ p {
   font-style: italic;
 }
 
+.center-text {
+  text-align: center;
+}
+
 /* INDEX PAGE */
 #index {
   display: flex;
