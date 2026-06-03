@@ -6,7 +6,8 @@
 }
 
 body {
-  font-family: "Assistant", sans-serif;
+  <!-- font-family: "Assistant", sans-serif;> -->
+font-family: "CourierCodeRoman", "Courier Prime", Courier, monospace;
   background-color: #fffef7;
   box-sizing: border-box;
   font-size: 18px;
