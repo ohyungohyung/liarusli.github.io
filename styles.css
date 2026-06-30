@@ -28,9 +28,10 @@ a:link {
 }
 
 a:hover {
-  color: lime;
+  <!-- color: lime; -->
   font-style: italic;
-  text-decoration: underline;
+  <!-- text-decoration: underline; -->
+  text-decoration: line-through;
 }
 
 li {
